@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hafsa-portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Hafsa's Portfolio</div>
+       <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, my name is <span class="purple">Hafsa Asim</span>
+          <div>and I am a passionate</div>
+          <span id="element">
+          </span>
+          <div class="buttons">
+            <a href="cv1.pdf"><button class="btn">Download Resume</button></a>
+            <a href="https://github.com/binte-asim"><button class="btn">visit GitHub</button></a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="db.png" alt="" />
+        </div>
+      </section>
+      </section>
+      <hr />
+      <section id="about">
+      <section class="secondsection">
+        <span class="text-grey">What i have done so far</span>
+        <h1>Work Experience</h1>
+
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="html.png" alt="" />
+            <div class="vertical-title">
+              Internship at samz technolgy (2024-2025)
+            </div>
+            <div class="vertical-desc">
+              I work as a Frontend developer here and made different responsive projects using HTML, CSS, java and react.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="css.png" alt="" />
+            <div class="vertical-title">
+              Mentor at Samz technology (2025-present)
+            </div>
+            <div class="vertical-desc">
+              I work as a mentor here help many students to work on different websites. Make them familiar about new technologies related to web development
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="js.png" alt="" />
+            <div class="vertical-title">Usmani tech (2025)</div>
+            <div class="vertical-desc">
+              I work with this organization as a project based wordpress developer, had made many websites using wordpress. Worked on astra, elementor and different plugins.
+            </div>
+          </div>
+        </div>
+      </section>
+      </section>
+      <hr/>
+      <section id="service">
+      <section class="services-section">
+        <h2>My Services</h2>
+        <div class="services-grid">
+          <div class="service-item">
+            <h3>Responsive Web Design</h3>
+            <p>
+              Creating websites that are optimized for all screen sizes,
+              ensuring a great user experience on any device.
+            </p>
+          </div>
+          <div class="service-item">
+            <h3>UI/UX Design</h3>
+            <p>
+              Designing intuitive and visually appealing user interfaces for a
+              seamless user experience.
+            </p>
+          </div>
+          <div class="service-item">
+            <h3>Web Development</h3>
+            <p>
+              Developing high-performance and dynamic websites using the latest
+              front-end technologies like HTML, CSS, and JavaScript.
+            </p>
+          </div>
+        </div>
+      </section>
+      </section>
+      <hr />
+      <section id="project">
+      <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-item">
+            <img src="pf.png" alt="Project 1" />
+            <h3>Portfolio</h3>
+            <p>
+              This project is a personal portfolio website designed to showcase
+              my skills, projects, and experience. Built using HTML, CSS, and
+              JavaScript, the portfolio features a modern and responsive layout
+              with sections for an introduction, services, projects, and contact
+              information. This project demonstrates my ability to create
+              visually appealing and functional websites while highlighting my
+              work and expertise in front-end development
+            </p>
+          </div>
+          <div class="project-item">
+            <a href="/Coffee restuarant.mp4">
+              <img src="coffee.png" alt="Project 1" /></a>
+            <h3>Coffee shop</h3>
+            <p>
+              Designed and developed a modern, mobile-responsive website for a specialty coffee restaurant. The project included a custom menu section, online reservation system, integrated contact form, and social media links. Focused on clean visuals and user-friendly navigation to enhance the café’s brand identity and customer engagement
+            </p>
+          </div>
+          <div class="project-item">
+            <a href="Company.mp4">
+            <img src="comp.png" alt="Project 3" /> </a>
+           <div class="one"><h3>Company's website</h3>
+            <p>
+            Designed and developed a modern, responsive website for Growmore, a company specializing in the supply of general items to vendors and retailers. The site showcases their product range, simplifies vendor inquiries, and strengthens their digital presence to support B2B growth.The website also includes user-friendly navigation and mobile optimization to ensure seamless access for partners across all devices.
+            </p>
+             </div>
+        </div>
+      </section>
+      </section>
+      <hr />
+      <section id="contact">
+      <section class="contact-section">
+        <h1>Connect with me!</h1>
+        
+        <form class="contact-form" action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" placeholder="your name" required>
+            
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" placeholder="Type your message here..." rows="5" required></textarea>
+            
+            <button type="submit">Send It!</button>
+        </form>
+        
+        <div class="contact-info">
+            <h2>You can also connect via</h2>
+            <p>Email: <a href="mailto:hafsaasim66@gmail.com@example.com">hafsaasim66@gmail.com@example.com"</a></p>
+            <p>Whatsapp: <a href="tel:+923472923534">+923472923534</a></p>
+            <p>Check out my LinkedIn: <a href="https://www.linkedin.com/in/hafsa-asim-59720a245/" target="_blank">LinkedIn Profile</a></p>
+            <p>Follow me on GitHub: <a href="https://github.com/binte-asim" target="_blank">GitHub Profile</a></p>
+        </div>
+    </section>
+    </section>
+    <hr>
+      <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                       <li><a href="#home">Home</a></li>
+                       <li><a href="#about">About</a></li>
+                       <li><a href="#service">Services</a></li>
+                       <li><a href="#project">Project</a></li>
+                       <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Frontend development</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                        <li><a href="#">Responsive websites</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/hafsa.asim.779"><i class="fab fa-facebook-f" ></i></a>
+                        <a href="https://github.com/binte-asim"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/hafsaa_dev/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/hafsa-asim-59720a245/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 Hafsa-portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Wordpress developer", "Frontend web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
