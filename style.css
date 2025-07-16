@@ -1,0 +1,462 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(2, 2, 44);
+  color: white;
+  font-family: "Poppins";
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(26, 26, 81);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(139, 150, 247);
+  font-size: 1.04rem;
+}
+main hr {
+  border: 0;
+  background-color: #453057;
+  height: 1px;
+  margin: 40px 84px;
+}
+.left {
+  font-size: 1.5rem;
+}
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  margin: 90px 0;
+  align-items: center;
+  margin: 130px 0;
+}
+.firstsection > div {
+  width: 30%;
+}
+.leftsection {
+  font-size: 1.8rem;
+}
+
+.leftsection .btn {
+  padding: 10px;
+  background-color: #2a1e72;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.leftsection .buttons {
+  padding: 36px 0;
+}
+.rightsection img {
+  width: 80%;
+}
+.purple {
+  color: rgb(161, 73, 245);
+}
+.text-grey {
+  color: grey;
+}
+#element {
+  color: rgb(161, 73, 245);
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+.secondsection .box {
+  background: white;
+  width: 77vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+}
+.secondsection .vertical {
+  height: 93px;
+  width: 1px;
+  background-color: white;
+  margin: 0 180px;
+}
+.image-top {
+  width: 40px;
+  position: relative;
+  top: -44px;
+  left: -17px;
+}
+.vertical-title {
+  position: relative;
+  top: 50px;
+  width: 150px;
+  font-size: 14px;
+}
+
+.vertical-desc {
+  position: relative;
+  top: 52px;
+  color: grey;
+  width: 150px;
+  font-size: 9px;
+}
+.services-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 2rem;
+  margin-bottom: 63px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.service-item {
+  background-color: rgb(26, 26, 81); /* You can change this color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 9px;
+  line-height: 1.6;
+}
+.projects-section {
+  padding: 50px;
+  text-align: center;
+}
+
+.projects-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.project-item {
+  background-color: rgb(26, 26, 81);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-item img {
+  max-width: 40%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.project-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 19px;
+}
+
+.project-item p {
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.project-item .one{
+  margin-top: 23px;
+}
+
+.contact-section {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(26, 26, 81);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.contact-section h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color:  rgb(2, 2, 44);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ffffff;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+footer {
+background-color: rgb(26, 26, 81);
+color: white;
+padding: 40px 0;
+}
+
+.footer-container {
+max-width: 1200px;
+margin: auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+padding: 0 20px;
+}
+
+.footer-row {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer-column {
+flex: 1;
+min-width: 250px;
+margin: 20px 0;
+}
+
+.footer-column h4 {
+font-size: 18px;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-weight: 600;
+border-bottom: 2px solid #fff;
+display: inline-block;
+padding-bottom: 5px;
+}
+
+.footer-column p {
+font-size: 14px;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+.footer-column ul {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-column ul li {
+margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+text-decoration: none;
+color: #bbb;
+transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+color: #fff;
+}
+
+.social-icons {
+margin-top: 20px;
+}
+
+.social-icons a {
+display: inline-block;
+margin-right: 10px;
+background-color: #fff;
+color: #5a2e77;
+padding: 10px;
+border-radius: 50%;
+text-align: center;
+width: 20px;
+height: 20px;
+transition: all 0.3s;
+}
+
+.social-icons a:hover {
+background-color: #3498db;
+color: white;
+}
+
+.footer-bottom {
+background-color: rgb(2, 2, 44);
+padding: 20px 0;
+text-align: center;
+color: #bbb;
+}
+
+.footer-bottom p {
+margin: 0;
+}
+
+/* For screens less than 1024px (Tablets) */
+@media only screen and (max-width: 1024px) {
+  .firstsection {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .firstsection .leftsection, .firstsection .rightsection {
+    width: 100%;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  
+  }
+
+  .box, .services-grid, .projects-grid {
+    flex-direction: column;
+  }
+
+  .service-item, .project-item, .vertical {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .vertical-desc{
+    position: relative;
+    top: 42px;
+    color: grey;
+    width: 184px;
+    font-size: 9px;
+  }
+  .vertical-title{
+    position: relative;
+    top: 45px;
+    width: 145px;
+    font-size: 11px;
+  }
+}
+
+/* For screens less than 768px (Mobile phones) */
+@media only screen and (max-width: 768px) {
+  .firstsection {
+    padding: 20px;
+  }
+
+  .firstsection .leftsection {
+    font-size: 16px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .contact-form {
+    flex-direction: column;
+  }
+
+  .contact-form label {
+    margin-bottom: 5px;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  footer .footer-column {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* For screens less than 480px (Small mobile devices) */
+@media only screen and (max-width: 480px) {
+  header nav ul {
+    display: none;
+  }
+
+  .firstsection .leftsection {
+    font-size: 14px;
+  }
+
+  .service-item h3, .project-item h3 {
+    font-size: 16px;
+  }
+
+  .contact-info p {
+    font-size: 14px;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+  }
+}
